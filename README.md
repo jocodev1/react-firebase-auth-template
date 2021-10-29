@@ -6,7 +6,7 @@ _This template was copied from an existing project I created and new tests have 
 
 ## Configuration
 
-Before running the app, be sure to setup a project in the Firebase (console)[https://console.firebase.google.com/], enable Google authentication and copy the Firebase configuration into the `index.js` file. When this has been completed, run `yarn start` to test things out.
+Before running the app, be sure to setup a project in the Firebase [console](https://console.firebase.google.com/), enable Google authentication and copy the Firebase configuration into the `index.js` file. When this has been completed, run `yarn start` to test things out.
 
 ## Available Scripts
 
