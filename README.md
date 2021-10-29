@@ -2,6 +2,8 @@
 
 This template was created so that you can quickly generate react projects with firebase authentication pre-configured. It consists of protected / unprotected routes and automatically handles auth redirection out of the box.
 
+_This template was copied from an existing project I created and new tests have to be written._
+
 ## Available Scripts
 
 In the project directory, you can run:
