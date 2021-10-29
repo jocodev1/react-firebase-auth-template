@@ -1,0 +1,1 @@
+export const isAuthenticated = () => Boolean(JSON.parse(localStorage.getItem('IS_LOGGED_IN')))
