@@ -4,6 +4,10 @@ This template was created so that you can quickly generate react projects with f
 
 _This template was copied from an existing project I created and new tests have to be written._
 
+## Configuration
+
+Before running the app, be sure to setup a project in the Firebase console, enable Google authentication and copy the Firebase configuration into the `index.js` file. When this has been completed, run `yarn start` to test things out.
+
 ## Available Scripts
 
 In the project directory, you can run:
