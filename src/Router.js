@@ -14,15 +14,12 @@ const history = createBrowserHistory();
 
 const requireLogin = (to, from, next) => {
   if (to.meta.auth) {
-    if (isAuthenticated()) { next(); return }
+    if (isAuthenticated()) next()
     next.redirect('/auth')
-    return
   } else if (to.match.path === '/auth' && isAuthenticated()) {
     next.redirect('/')
-    return
-  } else {
-    next()
   }
+  next()
 }
 
 const buildRoute = (Component, path, props = {}, LayoutComponent = AdminLayout, isGuarded = true) => ({
